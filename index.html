@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main-container">
+
+        <div class="question" id="question">
+            Question 
+
+        </div>
+        
+        <div class="options" id="options">
+            <ul>
+
+                <li>
+
+                    <input type="radio" class="answer" id="aradio" name="answer" >
+                <label class="anstext" id="a" for="aradio">Option A</label>
+                </input>
+                </li>
+                <li>
+
+                    <input type="radio" class="answer" id="bradio" name="answer" >
+                    <label class="anstext"  id="b" for="bradio">Option B</label>
+                </input>
+                </li>
+                <li>
+
+                    <input type="radio" class="answer" id="cradio" name="answer" >
+                    <label class="anstext" id="c" for="cradio">Option C</label>
+                </input>
+                </li>
+                <li>
+                    <input type="radio" class="answer" id="dradio" name="answer" >
+                    <label class="anstext" id="d" for="dradio">Option D</label></input>
+
+                </li>
+                
+                
+            </ul>
+
+
+        </div>
+            <div class="scores">Score: 0</div>
+        <div class="correct" id="correct"></div>
+
+        <div class="submit" id="submit">
+            <button type="submit">Submit</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

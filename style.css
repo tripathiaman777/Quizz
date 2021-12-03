@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins&display=swap');
+*{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif;
+}
+ul{
+    padding-left: 10px;
+}
+
+li{
+    list-style: none;
+    padding:  6px;
+
+}
+
+body{
+    /* background-color: #ff4e00;
+background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); */
+background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 100vh;
+    height: 100vh;
+}
+
+.main-container{
+    border: 2px solid yellowgreen;
+    width: 400px;
+    min-height: 300px;
+    color: rgb(238, 233, 190);
+    height: fit-content;
+    border-radius: 10px;
+    max-height: height;
+     
+}
+
+.question{
+    font-size: 25px;
+    margin: 10px;
+    padding-left: 14px;
+}
+
+.options{
+    font-size: 32px;
+    padding: 10px 5px;
+    font-size: 16px;
+}
+
+.submit{
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+button{
+    background-color: #8e44ad;
+    border: none;
+    color: white;
+    cursor: pointer;
+    /* display: block; */
+    font-family: inherit;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1.3rem;
+    overflow: hidden;
+}
+
+.correct{
+    /* color: yellow; */
+    background-color: rgba(94, 240, 10, 0.493);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin: 3px 0 ;
+    
+}
+
+.scores{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+    color: wheat;
+    font-weight: bold;
+}
+
