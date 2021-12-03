@@ -90,8 +90,9 @@ function score(){
         
      
         currentQuiz=0;
+        alert(`Your Score is ${scores}`)
         scores=0;
-        setTimeout(loadQuiz, 2000);  
+        setTimeout(loadQuiz, 1500);  
     }
     
 }
